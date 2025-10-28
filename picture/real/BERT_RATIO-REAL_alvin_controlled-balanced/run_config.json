@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-08-22 10:15:15",
+  "strategy": "alvin",
+  "mode": "controlled-balanced",
+  "init_dir": "/users/acs24jw/nli_project/mis_fever/data/fever_2000/ratio_real",
+  "val_path": "/users/acs24jw/nli_project/mis_fever/data/dev_f.jsonl",
+  "test_path": "/users/acs24jw/nli_project/mis_fever/data/test_f.jsonl",
+  "model_dir": "/mnt/parscratch/users/acs24jw/models/bert-base-uncased_model",
+  "qwen_dir": null,
+  "rounds": 4,
+  "budget_per_round": 200,
+  "ensemble_size": 5,
+  "batch_size": 32,
+  "max_len": 256,
+  "epochs": 3,
+  "patience": 2,
+  "lr": 2e-05,
+  "gen_mix": 0
+}

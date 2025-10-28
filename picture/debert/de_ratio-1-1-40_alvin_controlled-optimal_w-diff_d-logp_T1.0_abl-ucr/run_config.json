@@ -1,0 +1,21 @@
+{
+  "timestamp": "2025-08-22 19:03:43",
+  "strategy": "alvin",
+  "mode": "controlled-optimal",
+  "init_dir": "/users/acs24jw/nli_project/mis_fever/data/fever_2000/ratio_1_1_40",
+  "val_path": "/users/acs24jw/nli_project/mis_fever/data/dev_f.jsonl",
+  "test_path": "/users/acs24jw/nli_project/mis_fever/data/test_f.jsonl",
+  "model_dir": "/mnt/parscratch/users/acs24jw/models/deberta-v3-base_model",
+  "rounds": 4,
+  "budget_per_round": 200,
+  "ensemble_size": 5,
+  "batch_size": 16,
+  "max_len": 256,
+  "epochs": 3,
+  "patience": 2,
+  "lr": 2e-05,
+  "w_mode": "diff",
+  "delta_target": "logp",
+  "temperature": 1.0,
+  "ablation": "ucr"
+}
