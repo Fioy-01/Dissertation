@@ -22,6 +22,12 @@ __pycache__/
 *.out
 *.err
 *.txt
+*.slurm
+*.json
+*.pt
+*.pth
+*.bin
+
 
 # -----------------------------
 # 图片 / 图表 / 报告文件
@@ -53,7 +59,8 @@ exp*/        # 实验结果目录
 figs/
 real_*/      # 各实验结果文件夹
 HG/
-data/
 nli_project/
-mis_fever/
-nli2/
+data/
+
+
+
